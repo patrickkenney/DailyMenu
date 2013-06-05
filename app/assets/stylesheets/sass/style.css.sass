@@ -1,0 +1,176 @@
+@import "compass/css3"
+@import "color"
+
+*
+  margin: 0
+  padding: 0
+
+a
+  &:link, &:visited
+    color: gray
+
+body
+  font: 16px Arial, sans-serif
+  color: $seamoss
+  background: $offwhite
+
+nav
+  height: 100%
+
+#nav li
+  list-style-type: none
+  margin: 0 0 .1em 0
+  &.current
+    background: $orange
+    a
+      color: $white
+      &:hover
+        color: $white
+        cursor: default
+  a
+    display: block
+    padding: .4em
+    text-decoration: none
+    &:hover
+      color: $orange
+
+[role="main"]
+  background: $white
+
+header
+  text-align: center
+  padding: 1em 2% 1em
+
+
+footer
+  height: 2em
+  text-align: center
+
+.clearfix
+  clear: both
+
+a
+  &.menu-link, &.sidebar-link
+    color: $white
+    font-size: 30px
+    display: block
+    padding: 4px 15px
+    background: $seamoss
+    border-radius: 6px
+    text-decoration: none
+    font-weight: bold
+
+[role="navigation"], [role="main"]
+  transition: .2s all ease
+  width: 90%
+  padding: 5%
+
+[role="complementary"]
+  transition: .2s all ease
+  width: 90%
+  padding: 5%
+  position: fixed
+
+.js
+  [role="navigation"]
+    margin-left: -100%
+    float: left
+  [role="main"]
+    margin-left: 0
+    float: left
+  [role="complementary"]
+    margin-right: -200%
+    display: none
+    float: left
+    margin-top: 2em
+
+.menu-link
+  display: inline
+
+@media all and (min-width: 37.5em)
+  /*tabletish
+  .js
+    [role="navigation"]
+      width: 20%
+    [role="main"]
+      width: 60%
+      float: left
+    [role="complementary"]
+      margin-left: 0
+      width: 20%
+      display: inline
+  .active-sidebar
+    [role="navigation"]
+      margin-left: -100%
+    [role="main"]
+      margin-left: 0
+      width: 60%
+    [role="complementary"]
+      margin-right: -80%
+      width: 20%
+    nav
+      postion: inline
+  .sidebar-link
+    display: none
+  .menu-link
+    display: inline
+    position: fixed
+
+@media all and (min-width: 50em)
+  /*big
+  .js
+    [role="navigation"]
+      width: 19%
+      margin-left: 0
+      float: left
+      padding: 3%
+    [role="main"]
+      width: 44%
+      padding: 3%
+    [role="complementary"]
+      width: 19%
+      padding: 3%
+      margin-right: 0
+      color: $gray
+      float: right
+      display: inline
+  a
+    &.menu-link, &.sidebar-link
+      display: none
+
+.pull-right
+  float: right
+
+.pull-left
+  float: left
+
+.active-nav
+  [role="navigation"]
+    margin-left: 0
+    width: 80%
+  [role="main"]
+    margin-right: -100%
+  [role="complementary"]
+    margin-right: -100%
+    display: none
+    float: left
+
+.active-sidebar
+  [role="navigation"]
+    margin-left: -100%
+  [role="main"]
+    margin-left: -90%
+  [role="complementary"]
+    margin-left: 0
+    width: 80%
+    display: inline
+
+#nav, #sidebar
+  position: fixed
+
+.section
+  padding: 2%
+
+p
+  line-height: 1.4em
+  margin-bottom: .4em
