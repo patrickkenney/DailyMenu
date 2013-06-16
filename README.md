@@ -1,7 +1,6 @@
-
 =======
 MenuMaster
 ==========
 
-A rails app designed update printable menus and webpages with a single blow.
+A rails app (one day a gem) designed to produce printable PDF menus and webpages with a single blow.
 
