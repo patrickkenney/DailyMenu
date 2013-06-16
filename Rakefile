@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Offcanvas::Application.load_tasks
+MenuMaster::Application.load_tasks
