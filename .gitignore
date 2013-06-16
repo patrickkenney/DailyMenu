@@ -1,0 +1,11 @@
+.bundle
+.DS_Store
+log/*.log
+tmp/
+.sass-cache
+public/assets
+public/uploads
+config/local.rb
+.env
+.vagrant
+chef.tmp/*
