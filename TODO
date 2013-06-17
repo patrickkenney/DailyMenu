@@ -1,0 +1,3 @@
+Set up devise authentication
+Wire models to ActiveAdmin
+Convert to Rails3 mountable Engine and gem.
