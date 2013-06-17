@@ -2,13 +2,13 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: offcanvas_development
+  database: menumaster_development
   pool: 5
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: offcanvas_test
+  database: menumaster_test
   pool: 5
 
 

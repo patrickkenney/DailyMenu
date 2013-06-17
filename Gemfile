@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 # This is a bundler 1.2.x directive that we use to specify the ruby
 # version on Heroku.
-ruby '1.9.3'
+ruby '2.0.0'
 
-gem 'rails', '3.2.9'
+gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
