@@ -5,7 +5,7 @@ A rails app (one day a gem) designed to produce printable PDF menus and webpages
  - login
   * current menu
   * new menu (choice of: copy prev day or blank tpl)
-   * - print/export: PDF
+   * * print/export: PDF
    * - update website
    - - fb post
    - - tw post
